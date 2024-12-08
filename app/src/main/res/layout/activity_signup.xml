@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:background="#f0f0f0"
+    android:padding="16dp">
+
+    <!-- Username input field -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:textColorHint="#757575"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_style"/>
+
+    <!-- Email input field -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:textColorHint="#757575"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_style"/>
+
+    <!-- Password input field -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:textColorHint="#757575"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_style"/>
+
+    <!-- Signup button -->
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_style"
+        android:textColor="#ffffff"/>
+
+    <!-- Already have an account link -->
+    <TextView
+        android:id="@+id/move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:text="Already have an account? Login here"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

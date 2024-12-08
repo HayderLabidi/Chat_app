@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My_Application</string>
+    <string name="username">username</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="users">Users</string>
+    <string name="log_out">Log Out</string>
+    <string name="chat_logo">Chat Logo</string>
+    <string name="chat">Chat</string>
+    <string name="email_hint">Email</string>
+</resources>
