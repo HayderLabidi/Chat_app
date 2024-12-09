@@ -12,14 +12,10 @@ clone the repo
 # That's all 🎊🎉 
 
 ## ScreenShots
-<img src="android/cp3.png
-" width="100%" /><br /> <br />
-<img src="android/cp4.png
-" width="100%" /><br /> <br />
-<img src="android/cp2.png
-" width="100%" /><br /> <br />
-<img src="android/cp1.png
-" width="100%" /><br /> <br />
+<img src="android/cp3.png" width="100%" /><br /> <br />
+<img src="android/cp4.png" width="100%" /><br /> <br />
+<img src="android/cp2.png" width="100%" /><br /> <br />
+<img src="android/cp1.png" width="100%" /><br /> <br />
 
 
 
